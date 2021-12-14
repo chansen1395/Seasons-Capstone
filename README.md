@@ -1,3 +1,9 @@
+### PACKAGES USED
+npm install firebase
+npm install redux@4.0.5 react-redux@7.1.3
+npm install react-redux-firebase@3.1.1 redux-firestore@0.12.0
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
