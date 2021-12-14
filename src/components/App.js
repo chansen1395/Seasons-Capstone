@@ -1,7 +1,10 @@
 import React from "react";
 import Header from "./Header";
 import ReservationControl from "./ReservationControl";
-import Signin from "./Signin";
+// import SignIn from "../AuthForms/SignIn";
+import SignIn from "../AuthForms/SignIn";
+import SignUp from "../AuthForms/SignUp";
+import SignOut from "../AuthForms/SignOut";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,7 +19,9 @@ function App(){
     <Router>
       <Header />
       <Routes>
-      <Route exact path="/signin" element={<Signin/>} />
+      <Route exact path="/sign-in" element={<SignIn/>} />
+      <Route exact path="/sign-up" element={<SignUp/>} />
+      <Route exact path="/sign-out" element={<SignOut/>} />
       <Route exact path="/" element={<ReservationControl/>} />
         {/* <Route path="/signin">
           <Signin />
