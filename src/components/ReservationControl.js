@@ -61,9 +61,13 @@ class ReservationControl extends React.Component {
   handleChangingSelectedReservation = (id) => {
     this.props.firestore.get({ collection: 'reservations', doc: id }).then((reservation) => {
       const firestoreReservation = {
-        names: reservation.get("names"),
-        location: reservation.get("location"),
-        issue: reservation.get("issue"),
+        organizer: reservation.get("organizer"), 
+        groupName: reservation.get("groupName"), 
+        visitDate: reservation.get("visitDate"), 
+        groupSize: reservation.get("groupSize"), 
+        activities: reservation.get("activities"), 
+        notes: reservation.get("notes"), 
+        email: reservation.get("email"),
         id: reservation.id
       }
       this.setState({ selectedReservation: firestoreReservation });
@@ -98,7 +102,7 @@ class ReservationControl extends React.Component {
     if ((isLoaded(auth)) && (auth.currentUser == null)) {
       return (
         <React.Fragment>
-          <h1>You must be signed in to access the queue.</h1>
+          <h1>You must be signed in to access the schedule.</h1>
         </React.Fragment>
       )
     }
