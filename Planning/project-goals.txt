@@ -1,0 +1,30 @@
+Name of Student: Connor Hansen
+
+Name of Project: Red Oak Farm Website
+
+Project's Purpose or Goal: Create a useful application for managing group reservations at a previous employer's farm
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+
+CRUD with db; interactive calendar UI
+Authentication for admin vs visitor routes
+Contact form to request a visit
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+React Native/Reactjs front end
+Firebase back end
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+Automatically update db after approving visit request from e-mail.
+Host on Firebase - COMPLETED
+Allow admin to manage projects on property with similar UI to reservations calendar
+Flashy "About" page for visitors to learn more about available activities etc.
+Password management
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+
+AWS
+Possible dabbling in security tools
+Is there anything else you'd like your instructor to know?
+
+I may change/update these; I plan to speak with my previous employer about any features they may want.

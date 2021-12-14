@@ -1,0 +1,20 @@
+
+TO DO NEXT:
+  1. Connect with Firebase (started on 12/9). 
+  2. Get Local CRUD
+    - Organizer Name
+    - Group Name
+    - Date Requested
+    - Number of Attendees
+    - Length of stay
+    - Activities requested
+    - e-mail
+  3. Integrate Calendar UI somehow
+
+
+COMPLETED:
+- Working React router
+- Working material-ui page/fixed imports
+    # Material UI pages fixed (12/9)
+- Fancy login/sign-up page. Not connected to anything, but yay. It looks nice.
+    # Sign-in/up/out completed (12/9)

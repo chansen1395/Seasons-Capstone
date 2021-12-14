@@ -1,0 +1,29 @@
+*** Basic Calendar implementation ***
+https://www.youtube.com/watch?v=wgqX295fGkY - npm install @syncfusion/ej2-react-calendars --save
+12/3 8:20 am: https://www.youtube.com/watch?v=iNkryf_TtZw
+12/3 9:30 am: actively reviewing docs for https://ej2.syncfusion.com/react/demos/?utm_source=npm&utm_campaign=calendar#/material/calendar/date-range
+12/3 12:30 pm: reading through firebase lessons and docs
+12/3 12:45 pm: material-ui interface? https://v4.mui.com/ $npm install @material-ui/core and again with @material-ui/icons
+12/3 12:45 pm: npm install react-router-dom? https://v5.reactrouter.com/web/guides/quick-start
+12/10: 10am: using HOC (Higher Order Components) https://reactjs.org/docs/higher-order-components.html
+12/10: 10am: more HOC (Higher Order Components) https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+12/10: 11:45 am: firebase deployed
+12/10: 3pm: https://medium.com/@sanderdebr/building-a-workout-tracker-with-react-and-firebase-part-1-e1b13c073135 (uses the mui templates to build a calendar)
+12/10: 4:50pm: finished watching scheduler tutorial https://www.youtube.com/watch?v=iNkryf_TtZw&list=PLDzXQPWT8wEBcA9SvNAYDr4IBWsHgo-FO
+
+*** Integrating React w/ Net as an api ***
+
+https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022
+
+
+
+
+*** Packages ***
+npm install @syncfusion/ej2-react-calendars --save <-- probably won't use...
+npm install firebase
+npm install react-redux-firebase@3.1.1 redux-firestore@0.12.0
+npm install react-router-dom
+npm install @material-ui/core
+npm install @material-ui/icons
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/core
