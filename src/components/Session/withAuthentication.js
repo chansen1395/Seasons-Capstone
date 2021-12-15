@@ -1,7 +1,10 @@
 import React from 'react';
 import AuthUserContext from './context';
 import { withFirebase } from '../Firebase';
+import "firebase/compat/auth";
+import * as firebase from 'firebase/compat/auth'
 require ('firebase/compat/auth') ;
+
 // import firebase from '../src/firebase';
 // import firebase from '../firebase';
 // src\firebase.js
@@ -16,7 +19,8 @@ const withAuthentication = Component => {
     }
 
     componentDidMount() {
-      this.listener = this.props.firebase.auth.onAuthStateChanged(
+      this.listener = this.props.firebase.auth().onAuthStateChanged(
+      // this.listener = this.props.firebase.auth(
         authUser => {
           authUser
             ? this.setState({ authUser })
