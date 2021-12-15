@@ -21,19 +21,20 @@ import "firebase/compat/auth";
 //   }
 function Header() {
 
-  const auth = getAuth();
+    const auth = getAuth();
+    if (!isLoaded(auth)) {
+      return (
+        <React.Fragment>
+          <h1>Loading...</h1>
+        </React.Fragment>
+      )
+    }
+  // const auth = getAuth();
   const user = auth.currentUser;
   // render() {
-  //   const auth = this.props.firebase.auth();
-  //   if (!isLoaded(auth)) {
-  //     return (
-  //       <React.Fragment>
-  //         <h1>Loading...</h1>
-  //       </React.Fragment>
-  //     )
-  //   }
-  //   if ((isLoaded(auth)) && (auth.currentUser == null)) {
-  if (user === null) {
+  // };
+    if ((isLoaded(auth)) && (auth.currentUser == null)) {
+  // if (user === null) {
     return (
       <React.Fragment>
         <h1> Red Oak Farm</h1>
@@ -53,7 +54,8 @@ function Header() {
         </ul>
       </React.Fragment>
     )
-  } else if (user !== null){
+  // } else if (user !== null){
+  } else if ((isLoaded(auth)) && (auth.currentUser != null)){
 
     return (
 

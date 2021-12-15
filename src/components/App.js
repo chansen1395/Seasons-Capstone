@@ -13,6 +13,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import Dashboard from "./Dashboard";
 
 function App(){
   return ( 
@@ -23,6 +24,7 @@ function App(){
       <Route exact path="/sign-up" element={<SignUp/>} />
       <Route exact path="/sign-out" element={<SignOut/>} />
       <Route exact path="/" element={<ReservationControl/>} />
+      <Route exact path="/dashboard" element={<Dashboard/>} />
         {/* <Route path="/signin">
           <Signin />
         </Route> */}
