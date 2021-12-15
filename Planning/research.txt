@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=wgqX295fGkY - npm install @syncfusion/ej2-react-
 12/10: 11:45 am: firebase deployed
 12/10: 3pm: https://medium.com/@sanderdebr/building-a-workout-tracker-with-react-and-firebase-part-1-e1b13c073135 (uses the mui templates to build a calendar)
 12/10: 4:50pm: finished watching scheduler tutorial https://www.youtube.com/watch?v=iNkryf_TtZw&list=PLDzXQPWT8wEBcA9SvNAYDr4IBWsHgo-FO
+12/15: 8:45am: begin research on tutorials for integrating calendar: https://www.youtube.com/watch?v=pI4438IHBYY
 
 *** Integrating React w/ Net as an api ***
 

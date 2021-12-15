@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AuthUserContext, withAuthentication } from "../components/Session";
+import { AuthUserContext, withAuthentication } from "./Session";
 // import withRouter from 'withRouter';
 import { withRouter } from "./withRouter";
 

@@ -1,7 +1,7 @@
 import React from 'react';
-
 import AuthUserContext from './context';
 import { withFirebase } from '../Firebase';
+require ('firebase/compat/auth') ;
 // import firebase from '../src/firebase';
 // import firebase from '../firebase';
 // src\firebase.js
@@ -26,7 +26,9 @@ const withAuthentication = Component => {
     }
 
     componentWillUnmount() {
-      this.listener();
+      if(typeof this.listener === "function"){
+        this.listener();
+      }
     }
 
     render() {
