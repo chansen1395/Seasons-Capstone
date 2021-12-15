@@ -25,7 +25,7 @@ import useStyles from "../config/theme.dashboard";
 // import Copyright from '../components/Copyright';
 
 function Dashboard(props) {
-  let match = useMatch();
+  // let match = useMatch();
 
   const classes = useStyles();
 
@@ -114,4 +114,5 @@ function Dashboard(props) {
   );
 }
 
-export default withRouter(withAuthentication(Dashboard));
+export default withAuthentication(Dashboard);
+// export default withRouter(withAuthentication(Dashboard));

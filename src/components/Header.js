@@ -51,6 +51,9 @@ function Header() {
           <li>
             <Link to="/sign-out">Sign Out</Link>
           </li>
+          <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
         </ul>
       </React.Fragment>
     )
@@ -69,6 +72,9 @@ function Header() {
           <p>Signed in as: {user.email}</p>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+          <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
             <Link to="/sign-out">Sign Out</Link>
