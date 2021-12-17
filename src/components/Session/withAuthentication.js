@@ -1,9 +1,11 @@
 import React from 'react';
 import AuthUserContext from './context';
 import { withFirebase } from '../Firebase';
-import "firebase/compat/auth";
-import * as firebase from 'firebase/compat/auth'
-require ('firebase/compat/auth') ;
+// import "firebase/compat/auth";
+import "firebase/auth";
+// import * as firebase from 'firebase/compat/auth'
+import * as firebase from 'firebase/auth'
+// require ('firebase/compat/auth') ;
 
 // import firebase from '../src/firebase';
 // import firebase from '../firebase';

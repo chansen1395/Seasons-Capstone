@@ -4,8 +4,10 @@ import { AuthUserContext, withAuthentication } from "./Session";
 // import withRouter from 'withRouter';
 import { withRouter } from "./withRouter";
 
-import { Routes, Route, useMatch } from "react-router-dom";
-import "firebase/compat/auth";
+// import { Routes, Route, useMatch } from "react-router-dom";
+import { Switch, Route, useMatch } from "react-router-dom";
+// import "firebase/compat/auth";
+import "firebase/auth";
 import clsx from "clsx";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";

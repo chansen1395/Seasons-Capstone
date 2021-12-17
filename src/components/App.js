@@ -20,11 +20,26 @@ function App(){
     <Router>
       <Header />
       <Switch>
-      <Route exact path="/sign-in" element={<SignIn/>} />
+      <Route exact path="/">
+            <SignIn />
+          </Route>
+          <Route path="/sign-up">
+            <SignUp />
+          </Route>
+          <Route path="/sign-in">
+            <SignIn />
+          </Route>
+          <Route path="/sign-out">
+            <SignOut />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
+          </Route>
+      {/* <Route exact path="/sign-in" element={<SignIn/>} />
       <Route exact path="/sign-up" element={<SignUp/>} />
       <Route exact path="/sign-out" element={<SignOut/>} />
       <Route exact path="/" element={<ReservationControl/>} />
-      <Route exact path="/dashboard" element={<Dashboard/>} />
+      <Route exact path="/dashboard" element={<Dashboard/>} /> */}
         {/* <Route path="/signin">
           <Signin />
         </Route> */}
