@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { withFirestore, isLoaded } from 'react-redux-firebase';
 import 'firebase/compat/auth';
 import { connect } from 'react-redux';
-import { getAuth } from "firebase/auth";
+// import { getAuth } from "firebase/auth";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 

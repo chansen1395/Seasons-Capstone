@@ -17,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 import firebase from "firebase/compat/app";
 import { isLoaded } from "react-redux-firebase";
 import "firebase/compat/auth";
-import { getAuth } from "firebase/auth";
+// import { getAuth } from "firebase/auth";
 import { render } from "@testing-library/react";
 
 

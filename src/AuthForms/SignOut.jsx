@@ -15,7 +15,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import { useNavigate } from "react-router-dom";
-import { getAuth } from "firebase/auth";
+// import { getAuth } from "firebase/auth";
 
 // import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 

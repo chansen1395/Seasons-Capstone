@@ -7,7 +7,7 @@ import SignUp from "../AuthForms/SignUp";
 import SignOut from "../AuthForms/SignOut";
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route,
   Link,
   useRouteMatch,
@@ -19,7 +19,7 @@ function App(){
   return ( 
     <Router>
       <Header />
-      <Routes>
+      <Switch>
       <Route exact path="/sign-in" element={<SignIn/>} />
       <Route exact path="/sign-up" element={<SignUp/>} />
       <Route exact path="/sign-out" element={<SignOut/>} />
@@ -32,7 +32,7 @@ function App(){
         {/* <Route path="/">
           <ReservationControl />
         </Route> */}
-      </Routes>
+      </Switch>
     </Router>
   );
 }
