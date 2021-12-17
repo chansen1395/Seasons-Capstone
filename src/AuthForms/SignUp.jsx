@@ -12,9 +12,12 @@ import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import { ThemeProvider } from "@material-ui/core/styles";
-import firebase from "firebase/compat/app";
-import 'firebase/compat/auth';
-import { useNavigate } from "react-router-dom";
+// import firebase from "firebase/compat/app";
+import firebase from "firebase/app";
+// import 'firebase/compat/auth';
+import 'firebase/auth';
+// import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 
 
@@ -42,7 +45,8 @@ function Copyright(props) {
 
 export default function SignUp() {
   
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
+  const history = useHistory();
   
   const signUpSubmit = (event) => {
     event.preventDefault();
@@ -57,7 +61,8 @@ export default function SignUp() {
       .catch(function (error) {
         console.log(error.message);
       });
-      navigate("/sign-in");
+      // navigate("/sign-in");
+      history("/sign-in");
   };
 
   return (

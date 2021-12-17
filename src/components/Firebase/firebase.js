@@ -1,4 +1,5 @@
-import app from 'firebase/compat/app';
+// import app from 'firebase/compat/app';
+import app from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 
@@ -12,8 +13,10 @@ import 'firebase/database';
 //     appId: "1:32174510048:web:a1305976bd438222402585"
 // };
 
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/firestore';
+// import firebase from 'firebase/compat/app';
+// import 'firebase/compat/firestore';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
